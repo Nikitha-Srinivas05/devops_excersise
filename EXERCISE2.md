@@ -15,7 +15,7 @@ After starting Docker Desktop and running `minikube start`, the cluster came up 
 Navigated to the project folder and built the image directly (using Docker Desktop's engine, since the Minikube docker-env pipe wasn't used this time):
 
 ```powershell
-cd "C:\devops"
+cd "C:\devops_7th"
 docker build -t flask-app .
 ```
 
